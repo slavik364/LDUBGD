@@ -1,0 +1,78 @@
+.text-center{
+  text-align: center; 
+  padding: 100px;
+  padding-left:250px; 
+  /*background-color: #FFF8DC;
+  background-image: url(images/photo_Phon1.png);
+  background-repeat: no-repeat;
+  background-repeat: repeat-x;
+  background-size: 2000px 1200px;-->*/
+   background: url(images/photo_Phon1.png) right top no-repeat ;
+   background-size: 2500px 2000px;
+background-color: #f9f3eb;
+}
+
+.font{
+  font-size: 18px;
+  font-family:Courier New, monospace ;
+
+}
+.sidebar {
+
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: absolute;
+  height:40%;
+  overflow: auto;
+   opacity: 0.6;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+
+.sidebar a.active {
+  background-color: #FFA07A;
+  color: white;
+}
+
+
+.sidebar a:hover:not(.active) {
+  background-color:#FFA07A;
+  color: white;
+}
+
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+  
+}
+
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+.table table-dark table-striped
+{
+  opacity:0.3;
+  background-color: black;
+}
